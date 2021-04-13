@@ -3,11 +3,8 @@
 ## General
 
 -   GfK encourages contributions to existing open source projects used by us.
-
 -   GfK also encourages releasing new open source projects on the GfK GitHub account.
-
 -   Always ensure that you do not share
-
     -   Confidential information, e.g. credentials.
     -   Details on our infrastructural setup, which could widen our attack surface.
     -   Code and algorithms giving us an edge over competitors.
@@ -46,18 +43,13 @@ Releasing a new open source project requires time and effort, both for preparing
 ### Prepare for Release
 
 -   Include the required assets with your code:
-
     -   README.md with a high level overview/documentation.
     -   MAINTAINERS.md with your contact information.
     -   LICENSE.md stating the license, generally MIT with GfK SE as copyright holder.
     -   CONTRIBUTING.md with information on how to contribute to the project, <https://github.com/gfkse/template/blob/master/CONTRIBUTING.md> should be a good starting point.
-
 -   Follow the best practices w.r.t. the type of software you are releasing. For R packages, e.g., you do not need a MAINTAINERS.md since the relevant information is already stated in DESCRIPTION.
-
 -   Again ensure that there is no confidential information contained in the code and the git history. It is probably safest to not push the git history but rather start a new repo from the current commit.
-
 -   Ensure that the code is in a state which is useful to others:
-
     -   It does not depend on GfK-specific infrastructure.
     -   It is well documented.
     -   It is clear how to build/install/run.
