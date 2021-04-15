@@ -56,7 +56,7 @@ Releasing a new open source project requires time and effort, both for preparing
 
 ### Ask for Review
 
-Once you think you are ready to go, please reach out to the [Open Source CoP](https://teams.microsoft.com/l/team/19%3a3750f2603cd245c69b72915c9f002335%40thread.tacv2/conversations?groupId=7bb77e08-5b4b-4e49-aca3-b594498deaf0&tenantId=60f3f635-a520-4eb7-a859-dbc5572fc839) for a review.
+Once you think you are ready to go, please reach out to the [Open Source CoP](https://teams.microsoft.com/l/team/19%3a3750f2603cd245c69b72915c9f002335%40thread.tacv2/conversations?groupId=7bb77e08-5b4b-4e49-aca3-b594498deaf0&tenantId=60f3f635-a520-4eb7-a859-dbc5572fc839) (internal link) for a review.
 
 ### After Release
 
@@ -65,4 +65,4 @@ Once you think you are ready to go, please reach out to the [Open Source CoP](ht
 -   Actively create issues on your own if you long for help from the community.
 
 ## Credits
-This document is greatly inspired by https://opensource.zalando.com/docs.
+This document is greatly inspired by <https://opensource.zalando.com/docs>.
