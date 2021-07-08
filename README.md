@@ -29,6 +29,15 @@ Code contributions triggered by your regular work are highly encouraged, e.g.
 
 Larger contributions on your own initiative during working hours need approval from your manager.
 
+### Contributor License Agreements
+
+The following CLAs have been signed on GfK company level:
+
+- Google CLA
+- CNCF CLA
+
+In order to contribute to projects covered by these CLAs on behalf of GfK we can add you to the group of _authorized contributors_. Please reach out to the [Open Source CoP](https://teams.microsoft.com/l/team/19%3a3750f2603cd245c69b72915c9f002335%40thread.tacv2/conversations?groupId=7bb77e08-5b4b-4e49-aca3-b594498deaf0&tenantId=60f3f635-a520-4eb7-a859-dbc5572fc839) (internal link).
+
 ## Releasing a New Project
 
 Releasing software as open source can have multiple benefits for your team and GfK as a whole:
