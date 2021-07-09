@@ -31,24 +31,43 @@ Larger contributions on your own initiative during working hours need approval f
 
 ## Releasing a New Project
 
-Releasing software as open source can have multiple benefits for your team and GfK as a whole:
+Releasing software as open source can have multiple benefits for you, your team and GfK as a whole:
 
--   If the project solves problems relevant to others, you are likely to get support form the community in terms of bug reports and fixes, pull requests with interesting new features etc.
+-   We value the growth of our people, and therefore strongly encourage individuals to learn from their contributions to the open source community.
+-   If the project solves problems relevant to others, you are likely to get support from the community in terms of bug reports and fixes, pull requests with interesting new features etc.
 -   It will support GfK's employer branding as a tech company and help attract talent in technologies relevant to us.
 
 ### Get Buy-In From Management and Your Team
 
-Releasing a new open source project requires time and effort, both for preparing for the release and then for maintaining the project, reacting to bug reports etc. Make sure this is understood by your team and your manager.
+By making a decision to open source a project you are making a commitment to:
+- Spend time preparing it for release
+- Be efficient in responding to issues and pull requests that are submitted
+- Be responsible for maintaining the project
+- Be responsible for reacting to bug reports
+- Be responsible for engaging directly with contributors
+- Be responsible for upholding the standards and quality of contributions
+
+Make sure you fully understand this commitment, and that your team and manager also understand how this will impact them.
 
 ### Prepare for Release
 
--   Include the required assets with your code:
-    -   README.md with a high level overview/documentation.
-    -   MAINTAINERS.md with your contact information.
-    -   LICENSE.md stating the license, generally MIT with GfK SE as copyright holder.
-    -   CONTRIBUTING.md with information on how to contribute to the project, <https://github.com/gfkse/template/blob/master/CONTRIBUTING.md> should be a good starting point.
--   Follow the best practices w.r.t. the type of software you are releasing. For R packages, e.g., you do not need a MAINTAINERS.md since the relevant information is already stated in DESCRIPTION.
--   Again ensure that there is no confidential information contained in the code and the git history. It is probably safest to not push the git history but rather start a new repo from the current commit.
+Open sourcing projects should be a frictionless process; we therefore will always strive to help our colleagues in whatever way we can.
+
+As a starting point, any new project is strongly encouraged use the following asset repository as a skeleton:
+- [GfK Asset Template Repository](https://github.com/gfkse/template)
+
+
+Include the required assets with your code:
+-   README.md with a high level overview/documentation.
+-   MAINTAINERS.md with your contact information.
+-   LICENSE stating the license, generally MIT with GfK SE as copyright holder.
+-   CONTRIBUTING.md with information on how to contribute to the project.
+
+Follow best practices for the type of software you are releasing.
+*E.g R packages, do not need a MAINTAINERS.md since the relevant information is already stated in DESCRIPTION.*
+
+-   All new projects must start from a clean commit history. Do not publish a new repository that contains history.
+-   It is your responsiblity to make sure no confidential or secret information is published.
 -   Ensure that the code is in a state which is useful to others:
     -   It does not depend on GfK-specific infrastructure.
     -   It is well documented.
@@ -56,12 +75,12 @@ Releasing a new open source project requires time and effort, both for preparing
 
 ### Ask for Review
 
-Once you think you are ready to go, please reach out to the [Open Source CoP](https://teams.microsoft.com/l/team/19%3a3750f2603cd245c69b72915c9f002335%40thread.tacv2/conversations?groupId=7bb77e08-5b4b-4e49-aca3-b594498deaf0&tenantId=60f3f635-a520-4eb7-a859-dbc5572fc839) (internal link) for a review.
+Once you think you are ready to go, please reach out to the GfK Open Source CoP for a review.
 
 ### After Release
 
--   You put a lot of effort into open-sourcing your project. Now is the time to talk about it on conferences, appropriate mailing lists etc. Is there an official repo for your kind of software, e.g. PyPI, npm, or CRAN? Try to publish it there.
--   Timely react to new issues, feature requests etc., even if it is just communicating that you currently do not have time to look into it.
+-   You put a lot of effort into open-sourcing your project. Now is the time to talk about it at conferences, appropriate mailing lists etc. Is there an official repo for your kind of software, e.g. PyPI, npm, or CRAN? Try to publish it there.
+-   Be timely in responding to the community and contributors. This includes new issues, pull requests, feature requests etc., even if it is just communicating that you currently do not have time to look into it.
 -   Actively create issues on your own if you long for help from the community.
 
 ## Credits
